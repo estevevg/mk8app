@@ -1,0 +1,33 @@
+{
+  "name": "MK8App",
+  "displayName": "MK8App",
+  "version": "1.0.0",
+  "description": "MK8App is an application to show the results of the Mario Kart tournaments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-material": "^1.1.18",
+    "cordova-android": "^8.0.0",
+    "cordova-browser": "^6.0.0"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "browser",
+      "android"
+    ]
+  }
+}
